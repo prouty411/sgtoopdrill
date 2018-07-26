@@ -6,6 +6,3 @@ class Grade {
         this.date = new Date();
     }
 }
-
-
-
