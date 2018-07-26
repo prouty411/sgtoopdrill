@@ -8,6 +8,7 @@ class SGT{
     /**
      *
      * @param name
+     * @return none
      */
     addClass(name){
 
@@ -16,6 +17,7 @@ class SGT{
     /**
      *
      * @param name
+     * @return none
      */
     addStudent(name){
 
@@ -32,7 +34,10 @@ class SGT{
 
     /**
      *
-     * @param Class
+     * @param Class - this is optional
+     * if supplied with Class than return students with particulars
+     * else return all the students
+     * @return
      */
     listClassRosters(Class){
 
@@ -41,6 +46,7 @@ class SGT{
     /**
      *
      * @param student
+     * @return an individual student
      */
     findStudent(student){
 
