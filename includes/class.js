@@ -7,10 +7,10 @@ class Class{
 	addStudent(studentObject){
 		this.roster.push(studentObject);
 	}
-	addGrade(studentObject,this,gradeObject){
-		var grade = new Grade(studentObject,this,gradeObject);
+	addGrade(studentObject,this,gradeLetter){
+		var grade = new Grade(studentObject,this,gradeLetter);
 		this.grades.push(grade);
 		student.addClass(this);
-		student.addGrade(gradeObject);
+		student.addGrade(gradeLetter);
 	}
 }
