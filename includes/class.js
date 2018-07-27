@@ -5,6 +5,6 @@ class Class{
 		this.grades= [];
 	}
 	addStudent(studentObject){
-		this.roster.push(student);
+		this.roster.push(studentObject);
 	}
 }
